@@ -1,0 +1,75 @@
+Time resolution is 1 ps
+UVM_INFO /tools/Xilinx/2026.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO /tools/Xilinx/2026.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18648) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test counter_test...
+UVM_INFO /tools/Xilinx/2026.1/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(20867) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/driver.svh(25) @ 0: uvm_test_top.env.drv [run] Running with 100 loops
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 20000: uvm_test_top.env.p [run] data_in: c0895e81 q: xxxxxxxx  ld: 0,  inc: 0
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 40000: uvm_test_top.env.p [run] data_in: c0895e81 q: 00  ld: 0,  inc: 0
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 60000: uvm_test_top.env.p [run] data_in: 46df998d q: 00  ld: 0,  inc: 1
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 80000: uvm_test_top.env.p [run] data_in: 46df998d q: 00  ld: 0,  inc: 1
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 100000: uvm_test_top.env.p [run] data_in: 6d7cd0d q: 00  ld: 0,  inc: 1
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 120000: uvm_test_top.env.p [run] data_in: 6d7cd0d q: 00  ld: 0,  inc: 1
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 140000: uvm_test_top.env.p [run] data_in: 462df78c q: 00  ld: 0,  inc: 1
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 160000: uvm_test_top.env.p [run] data_in: 462df78c q: 00  ld: 0,  inc: 1
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 180000: uvm_test_top.env.p [run] data_in: d513d2aa q: 00  ld: 0,  inc: 1
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 200000: uvm_test_top.env.p [run] data_in: d513d2aa q: 00  ld: 0,  inc: 1
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 220000: uvm_test_top.env.p [run] data_in: 47ecdb8f q: 00  ld: 1,  inc: 0
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 240000: uvm_test_top.env.p [run] data_in: 47ecdb8f q: 00  ld: 1,  inc: 0
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 260000: uvm_test_top.env.p [run] data_in: e2ca4ec5 q: 00  ld: 0,  inc: 0
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 280000: uvm_test_top.env.p [run] data_in: e2ca4ec5 q: 00  ld: 0,  inc: 0
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 300000: uvm_test_top.env.p [run] data_in: b2a72665 q: 00  ld: 0,  inc: 1
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 320000: uvm_test_top.env.p [run] data_in: b2a72665 q: 00  ld: 0,  inc: 1
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 340000: uvm_test_top.env.p [run] data_in: 10642120 q: 00  ld: 0,  inc: 0
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 360000: uvm_test_top.env.p [run] data_in: 10642120 q: 00  ld: 0,  inc: 0
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 380000: uvm_test_top.env.p [run] data_in: 8983b813 q: 00  ld: 1,  inc: 0
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 400000: uvm_test_top.env.p [run] data_in: 8983b813 q: 00  ld: 1,  inc: 0
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 420000: uvm_test_top.env.p [run] data_in: eaa62ad5 q: 00  ld: 1,  inc: 1
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 440000: uvm_test_top.env.p [run] data_in: eaa62ad5 q: 00  ld: 1,  inc: 1
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 460000: uvm_test_top.env.p [run] data_in: e7c572cf q: 00  ld: 0,  inc: 1
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 480000: uvm_test_top.env.p [run] data_in: e7c572cf q: 00  ld: 0,  inc: 1
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 500000: uvm_test_top.env.p [run] data_in: 9e314c3c q: 00  ld: 1,  inc: 0
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 520000: uvm_test_top.env.p [run] data_in: 9e314c3c q: 00  ld: 1,  inc: 0
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 540000: uvm_test_top.env.p [run] data_in: ec4b34d8 q: 00  ld: 0,  inc: 1
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 560000: uvm_test_top.env.p [run] data_in: ec4b34d8 q: 00  ld: 0,  inc: 1
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 580000: uvm_test_top.env.p [run] data_in: 5b0265b6 q: 00  ld: 1,  inc: 1
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 600000: uvm_test_top.env.p [run] data_in: 5b0265b6 q: 00  ld: 1,  inc: 1
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 620000: uvm_test_top.env.p [run] data_in: 150fdd2a q: 00  ld: 0,  inc: 0
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 640000: uvm_test_top.env.p [run] data_in: 150fdd2a q: 00  ld: 0,  inc: 0
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 660000: uvm_test_top.env.p [run] data_in: 27f2554f q: 00  ld: 0,  inc: 1
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 680000: uvm_test_top.env.p [run] data_in: 27f2554f q: 00  ld: 0,  inc: 1
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 700000: uvm_test_top.env.p [run] data_in: aaa4b15 q: 00  ld: 1,  inc: 0
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 720000: uvm_test_top.env.p [run] data_in: aaa4b15 q: 00  ld: 1,  inc: 0
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 740000: uvm_test_top.env.p [run] data_in: 2635fb4c q: 00  ld: 1,  inc: 0
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 760000: uvm_test_top.env.p [run] data_in: 2635fb4c q: 00  ld: 1,  inc: 0
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 780000: uvm_test_top.env.p [run] data_in: dbcd60b7 q: 00  ld: 0,  inc: 0
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 800000: uvm_test_top.env.p [run] data_in: dbcd60b7 q: 00  ld: 0,  inc: 0
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 820000: uvm_test_top.env.p [run] data_in: 44de3789 q: 00  ld: 1,  inc: 1
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 840000: uvm_test_top.env.p [run] data_in: 44de3789 q: 00  ld: 1,  inc: 1
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 860000: uvm_test_top.env.p [run] data_in: a8c7fc51 q: 00  ld: 1,  inc: 1
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 880000: uvm_test_top.env.p [run] data_in: a8c7fc51 q: 00  ld: 1,  inc: 1
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 900000: uvm_test_top.env.p [run] data_in: 6457edc8 q: 00  ld: 1,  inc: 0
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 920000: uvm_test_top.env.p [run] data_in: 6457edc8 q: 00  ld: 1,  inc: 0
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 940000: uvm_test_top.env.p [run] data_in: bf05007e q: 00  ld: 1,  inc: 0
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 960000: uvm_test_top.env.p [run] data_in: bf05007e q: 00  ld: 1,  inc: 0
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 980000: uvm_test_top.env.p [run] data_in: e9ebf6d3 q: 00  ld: 1,  inc: 1
+UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 1000000: uvm_test_top.env.p [run] data_in: e9ebf6d3 q: 00  ld: 1,  inc: 1

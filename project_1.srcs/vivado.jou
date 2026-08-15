@@ -1,0 +1,74 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:01:26 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Sat Aug 15 13:03:41 2026
+# Process ID         : 12612
+# Current directory  : /home/boib2/vivadoProjects/registerProj/project_1/project_1.srcs
+# Command line       : vivado .
+# Log file           : /home/boib2/vivadoProjects/registerProj/project_1/project_1.srcs/vivado.log
+# Journal file       : /home/boib2/vivadoProjects/registerProj/project_1/project_1.srcs/vivado.jou
+# Running On         : Elvinjohn1234
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 26.04 LTS
+# Processor Detail   : AMD Ryzen 9 7945HX with Radeon Graphics
+# CPU Frequency      : 2495.270 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 32
+# Host memory        : 7903 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 10051 MB
+# Available Virtual  : 8336 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/boib2/vivadoProjects/registerProj/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+pwd
+glob *
+add_files ./sim_1/new/src/printer.svh
+update_compile_order -fileset sources_1
+add_files ./sim_1/new/src/quiet_test.svh
+exec "touch quiet_test.svh"
+exec touch quiet_test.svh
+add_files ./sim_1/new/src/quiet_test.svh
+add_files ./sim_1/new/src/quiet_test.svh
+update_compile_order -fileset sources_1
+add_files ./sim_1/new/src/agent_with_interface.svh
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+remove_files  -fileset sim_1 /home/boib2/vivadoProjects/registerProj/project_1/project_1.srcs/sim_1/new/src/monitor.svh
+remove_files  -fileset sim_1 /home/boib2/vivadoProjects/registerProj/project_1/project_1.srcs/sim_1/new/src/transaction.svh
+set_property -name {xsim.simulate.xsim.more_options} -value {-testplusarg UVM_TESTNAME=counter_test} -objects [get_filesets sim_1]
+add_files ./sim_1/new/counter_pkg.sv
+update_compile_order -fileset sources_1
+add_files ./sim_1/new/counter_if.sv
+update_compile_order -fileset sources_1
+add_files ./sim_1/new/counter_if.sv
+add_files -norecurse /home/boib2/vivadoProjects/registerProj/project_1/project_1.srcs/sim_1/new/counter_if.sv
+add_files -norecurse /home/boib2/vivadoProjects/registerProj/project_1/project_1.srcs/sim_1/new/counter_if.sv
+set_property source_mgmt_mode All [current_project]
+set_property -name {xsim.compile.xsc.more_options} -value {} -objects [get_filesets sim_1]
+set_property -name {xsim.compile.xvlog.more_options} -value {-L uvm} -objects [get_filesets sim_1]
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse /home/boib2/vivadoProjects/registerProj/project_1/project_1.srcs/sim_1/new/counter_if.sv
+add_files -fileset sim_1 /home/boib2/vivadoProjects/registerProj/project_1/project_1.srcs/sim_1/new/counter_if.sv
+set_property include_dirs [list "$::env(XILINX_VIVADO)/data/systemverilog/uvm_1.2/xsim/files/src" "/home/boib2/vivadoProjects/registerProj/project_1/project_1.srcs/sim_1/new"] [get_filesets sim_1]
+set uvm_path [file dirname [lindex [glob $::env(XILINX_VIVADO)/data/systemverilog/uvm_*/xsim/files/src/uvm_macros.svh] 0]]
+set uvm_dir [file dirname [lindex [exec find $::env(XILINX_VIVADO) -name uvm_macros.svh] 0]]
+set_property include_dirs [list $uvm_dir /home/boib2/vivadoProjects/registerProj/project_1/project_1.srcs/sim_1/new /home/boib2/vivadoProjects/registerProj/project_1/project_1.srcs/sim_1/new/src] [get_filesets sim_1]
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+set_property include_dirs {/home/boib2/vivadoProjects/registerProj/project_1/project_1.srcs /home/boib2/vivadoProjects/registerProj/project_1/project_1.srcs/sim_1/new /home/boib2/vivadoProjects/registerProj/project_1/project_1.srcs/sim_1/new/src /tools/Xilinx/2026.1/data/system_verilog/uvm_1.2} [get_filesets sim_1]
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl

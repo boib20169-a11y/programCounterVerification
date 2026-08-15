@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/boib2/vivadoProjects/registerProj/project_1/project_1.srcs/sim_1/new/counter_if.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/boib2/vivadoProjects/registerProj/project_1/project_1.srcs/sim_1/new/counter_pkg.sv" into library xil_defaultlib
+WARNING: [VRFC 10-5025] system function call '$psprintf' is not IEEE standard [../../../../project_1.srcs/sim_1/new/src/driver.svh:25]
+WARNING: [VRFC 10-5025] system function call '$psprintf' is not IEEE standard [../../../../project_1.srcs/sim_1/new/src/scoreboard.svh:30]
+WARNING: [VRFC 10-5025] system function call '$psprintf' is not IEEE standard [../../../../project_1.srcs/sim_1/new/src/printer.svh:23]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/boib2/vivadoProjects/registerProj/project_1/project_1.srcs/sim_1/new/tb_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench

@@ -1,0 +1,39 @@
+// Please define a class called "scoreboard" that extends agent_with_interface
+class scoreboard extends agent_with_interface;
+   
+   `uvm_component_utils(scoreboard)
+
+   logic [31:0] beh_q;
+
+   function new(string name="", uvm_component parent);
+      super.new(name, parent);
+   endfunction : new
+
+   // Please note that scoreboard does not have a build() method.  
+   // It inherits it from agent_with_interface
+   
+   task run_phase(uvm_phase phase);
+      forever begin
+         @(posedge i.clk);
+         if (i.clr)
+           beh_q = 0;
+         else if (i.ld)
+           begin
+           if (i.inc)
+             beh_q = beh_q + 32'd4;
+           else
+             beh_q = i.data_in;
+             end
+             
+         @(negedge i.clk);
+         assert(beh_q === i.q) else
+           `uvm_error("run",$psprintf("Expected %2h  Received %2h",beh_q, i.q));
+      end
+   endtask // run
+endclass
+
+
+   
+
+
+   
