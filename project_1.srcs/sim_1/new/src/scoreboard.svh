@@ -15,7 +15,7 @@ class scoreboard extends agent_with_interface;
    task run_phase(uvm_phase phase);
       forever begin
          @(posedge i.clk);
-         if (i.clr)
+         if (~i.clr)
            beh_q = 0;
          else if (i.ld)
            begin

@@ -72,3 +72,4 @@ source testbench.tcl
 close_sim
 launch_simulation
 source testbench.tcl
+quit

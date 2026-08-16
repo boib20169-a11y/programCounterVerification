@@ -27,5 +27,5 @@ module nbitRegister(
 
 always @ (posedge clk)
 
-    q <= clr ? 32'd0 : ld ? d : q;
+    q <= ~clr ? 32'd0 : ld ? d : q;
 endmodule

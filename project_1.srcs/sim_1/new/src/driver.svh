@@ -25,8 +25,8 @@ class driver extends agent_with_interface;
                 $psprintf("Running with %0d loops",nloops),UVM_MEDIUM);
       repeat (nloops) begin
          @(negedge i.clk);
-         {i.ld, i.inc} = $random;
-         i.data_in = $random;
+         {i.ld, i.inc} <= $random;
+         i.data_in <= $random;
       end
       // Please add a call to drop_objection to let the simulation end
       phase.drop_objection(this);

@@ -3020,3 +3020,6 @@ UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 1000000: uvm
 INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
 INFO: [USF-XSim-97] XSim simulation ran for 1000ns
 launch_simulation: Time (s): cpu = 00:01:00 ; elapsed = 00:00:16 . Memory (MB): peak = 11359.094 ; gain = 28.781 ; free physical = 4343 ; free virtual = 7561
+quit
+INFO: xsimkernel Simulation Memory Usage: 371956 KB (Peak: 437492 KB), Simulation CPU Usage: 750 ms
+INFO: [Common 17-206] Exiting Vivado at Sat Aug 15 15:52:01 2026...
