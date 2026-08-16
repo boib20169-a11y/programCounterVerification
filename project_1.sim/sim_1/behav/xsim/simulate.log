@@ -73,3 +73,4 @@ UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 940000: uvm_
 UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 960000: uvm_test_top.env.p [run] data_in: bf05007e q: bf05007e  ld: 1,  inc: 0
 UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 980000: uvm_test_top.env.p [run] data_in: 1cd9e739 q: bf05007e  ld: 0,  inc: 1
 UVM_INFO ../../../../project_1.srcs/sim_1/new/src/printer.svh(23) @ 1000000: uvm_test_top.env.p [run] data_in: e9ebf6d3 q: bf050082  ld: 1,  inc: 1
+INFO: xsimkernel Simulation Memory Usage: 306416 KB (Peak: 355752 KB), Simulation CPU Usage: 690 ms
